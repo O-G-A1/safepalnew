@@ -719,6 +719,10 @@ a{
        color:  rgb(75,32,239);
 
    }
+#withdrawnamount{
+    color: green;
+
+   }
    .enablesummarypara{
     padding: 0px 35px;
     font-size: 1.1rem;

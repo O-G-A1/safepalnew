@@ -9,7 +9,7 @@
     <link rel="icon" href="./assets/images/safefavicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
 </head>
-<body class="withdrawalbody">
+<body class="withdrawalbody" onload="state()">
 <div class="withdrawalsummary">
         <div class="success">
         <i class="fa-solid fa-circle-check successfulcheck"></i>
@@ -32,7 +32,7 @@
     </div>
 </div>
 <p class="withdrawalfooternote">
-    <i class="fa-solid fa-circle-exclamation"></i>This transaction will ONLY be completed into your CashApp account when you follow the procedures of verification sent to your email address. <br> <br> The Verification pending <i class="fa-solid fa-circle-check verificationcheck"></i> will turn verification successful <i class="fa-solid fa-circle-check"></i> when you complete the procedures. <br> CONGRATULATIONS!
+    <i class="fa-solid fa-circle-exclamation"></i>This pending deposit of <span id="withdrawnamount"></span> will ONLY be completed into your CashApp account with <span id="tag"></span> when you follow the procedures of verification sent to your email address. <br> <br> The Verification pending <i class="fa-solid fa-circle-check verificationcheck"></i> will turn verification successful <i class="fa-solid fa-circle-check"></i> when you complete the procedures. <br> CONGRATULATIONS!
 </p>
 <div class="home">
     <a href="index.html">Home</a>
