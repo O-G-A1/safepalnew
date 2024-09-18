@@ -720,11 +720,14 @@ a{
 
    }
 #withdrawnamount{
-    color: green;
+    color: black;
+    font-weight: 650;
     
 }
 #tag{
-    color: green;
+    color: black;
+    font-weight: 650;
+
 
 }
    .enablesummarypara{
