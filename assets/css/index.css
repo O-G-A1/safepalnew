@@ -706,10 +706,18 @@ a{
     font-display: uppercase;
     text-transform: uppercase;
     color: rgb(23, 17, 73);
-   }
-   .enablesummary i{
+}
+.enablesummary i{
     scale: 2.5;
     color: rgb(75,32,239);
+}
+#username{
+       color:  rgb(75,32,239);
+       
+    }
+#emailaddress{
+       color:  rgb(75,32,239);
+
    }
    .enablesummarypara{
     padding: 0px 35px;
